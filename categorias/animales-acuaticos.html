@@ -5,12 +5,16 @@
     <meta charset='utf-8'>
     <title>Wiki Animal</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="/CSS/styless.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <nav>
-            <a href="/" title="Ir a la pagina principal">
+        <nav class="navegation-bar">
+            <a class="brand-link" href="/" title="Ir a la pagina principal">
                 <img src="https://static.vecteezy.com/ti/vetor-gratis/t1/17761977-de-design-de-logotipo-de-mascote-de-cabeca-de-lobo-com-fundo-isolado-para-identidade-corporativa-vetor.jpg"
                     width="40px" height="40px" alt="Logo de la wiki animal" />
                 <span> Wiki animal</span>
@@ -18,13 +22,38 @@
         </nav>
     </header>
     <main>
-        <section>
+        <section class="info-section">
             <h1>Wiki Animal</h1>
             <p>
-                En esta wiki encontraras informacion sobre animales acuaticos.
+                En esta wiki encontraras informacion sobre animales Acuaticos.
             </p>
         </section>
-        <section>
+        <article class="animal-container">
+            <figure class="description-animals">
+                <img width="200px" height="200px"
+                    src="https://img.freepik.com/vector-gratis/ilustracion-dibujos-animados-pinguinos-dibujados-mano_52683-161681.jpg?w=360">
+                <p>Los pingüinos son aves marinas no voladoras, adaptadas al frío y expertas nadadoras. Tienen cuerpos
+                    aerodinámicos, alas convertidas en aletas y un plumaje denso que los protege del frío. Viven
+                    principalmente en el hemisferio sur, como en la Antártida, aunque algunas especies habitan en climas
+                    templados.</p>
+            </figure>
+            <figure class="description-animals">
+                <img
+                    src="https://static.vecteezy.com/system/resources/previews/024/211/385/non_2x/cute-pink-dolphin-fish-cartoon-vector.jpg">
+                <p>
+                    Los delfines son mamíferos marinos inteligentes y sociables, conocidos por su agilidad y
+                    comunicación mediante sonidos. Tienen cuerpos aerodinámicos, respiran por un espiráculo y usan la
+                    ecolocalización para navegar y cazar. Viven en océanos y algunos ríos de todo el mundo.</p>
+            </figure>
+            <figure class="description-animals">
+                <img
+                    src="https://img.freepik.com/vector-gratis/lindo-bebe-orca-ballena-nadando-icono-dibujos-animados-vectorial-ilustracion-animal-naturaleza-icono-aislado-plano_138676-13748.jpg?semt=ais_hybrid">
+                <p>Las orcas, o ballenas asesinas, son mamíferos marinos de la familia de los delfines y los más grandes
+                    de su grupo. Son depredadores inteligentes y sociales, con un fuerte sentido de cooperación. Tienen
+                    cuerpos robustos, una coloración negra y blanca distintiva y usan la ecolocalización para cazar.
+                    Habitan en océanos de todo el mundo.</p>
+            </figure>
+        </article>
 </body>
 
 </html>
