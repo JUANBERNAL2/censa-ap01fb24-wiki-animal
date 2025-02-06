@@ -33,7 +33,7 @@ a:active {
 .navegation-bar {
     display: flex;
     padding: 4px;
-    background-color: var(--color-blue);
+    background-color: var(--color-cream);
 }
 
 .brand-link {
@@ -170,6 +170,7 @@ a:active {
 
 .description-animals p {
     max-height: 0;
+    color: rgb(255, 0, 0);
     opacity: 0;
     overflow: hidden;
     transition: max-height 1s ease, opacity 1s ease;
@@ -179,5 +180,19 @@ a:active {
 .description-animals:hover p {
     max-height: 270px; 
     opacity: 1;
+}
+
+.diferent-color-forest{
+    color: var(--color-blue);
+}
+
+
+#background-water{
+    background-image: url(https://www.fundacionaquae.org/wp-content/uploads/2018/03/fondos-arenosos-e1659096068373.jpg);
+}
+
+
+#background-forest{
+    background-image: url(https://cdn.unenvironment.org/decadeonrestoration/2020-03/nature-3294681_1280%20%281%29.jpg);
 }
 
